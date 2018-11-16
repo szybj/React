@@ -1,5 +1,5 @@
 require('normalize.css/normalize.css');
-require('styles/App.scss');
+require('styles/header.less');
 import ReactDOM from 'react-dom';
 
 import React from 'react';
@@ -90,7 +90,7 @@ class ControllerUnit extends React.Component {
 }
 class AppComponent extends React.Component {
   constructor(props) {
-    super(props);
+
     this.Constant = {
       centerPos: {
         left: 0,
